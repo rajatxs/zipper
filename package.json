@@ -1,0 +1,22 @@
+{
+  "name": "@rxpm/zipper",
+  "version": "1.0.0",
+  "description": "Simple file archive utility",
+  "main": "zipper.js",
+  "preferGlobal": true,
+  "bin": {
+    "zipper": "zipper.js"
+  },
+  "type": "module",
+  "keywords": ["zipper", "zip"],
+  "author": {
+    "name": "Rajat Sharma",
+    "email": "rajatxt@proton.me",
+    "url": "https://github.com/rajatxs"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "commander": "^11.1.0"
+  }
+}
